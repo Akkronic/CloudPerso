@@ -1,0 +1,25 @@
+h1
+{
+	color: #1f1790;
+	text-align: center;
+}
+
+body
+{
+	background: #e9c99f;
+}
+
+ul li a
+{
+	color: #009875;
+}
+
+ul li a:hover
+{
+	color: #059443;
+}
+
+ul li a:focus
+{
+	outline: 0;
+}
