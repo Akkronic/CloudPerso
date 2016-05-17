@@ -1,0 +1,1046 @@
+I, [2016-05-17T01:44:12.395847 #5252]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 01:44:12 +0000
+F, [2016-05-17T01:44:12.464590 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:46:09.693287 #5252]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:46:09 +0000
+F, [2016-05-17T01:46:09.707994 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:46:13.074043 #5252]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:46:13 +0000
+F, [2016-05-17T01:46:13.096250 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:46:31.717805 #5252]  INFO -- : Started GET "/" for ::1 at 2016-05-17 01:46:31 +0000
+F, [2016-05-17T01:46:31.734676 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:46:57.705658 #5252]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:46:57 +0000
+F, [2016-05-17T01:46:57.728694 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:48:00.138577 #5252]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 01:48:00 +0000
+F, [2016-05-17T01:48:00.160163 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:48:02.396120 #5252]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 01:48:02 +0000
+F, [2016-05-17T01:48:02.410371 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:48:04.078043 #5252]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 01:48:04 +0000
+F, [2016-05-17T01:48:04.094085 #5252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:51:43.879627 #5753]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 01:51:43 +0000
+F, [2016-05-17T01:51:43.942278 #5753] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:52:03.299899 #5753]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:52:03 +0000
+I, [2016-05-17T01:52:03.338811 #5753]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T01:52:03.515001 #5753]  INFO -- :   Rendered pages/home.html.erb within layouts/application (6.3ms)
+I, [2016-05-17T01:53:13.766564 #5753]  INFO -- : Completed 200 OK in 70425ms (Views: 70300.2ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T01:53:13.862628 #5753]  INFO -- : Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 192.168.0.13 at 2016-05-17 01:53:13 +0000
+I, [2016-05-17T01:53:13.904976 #5753]  INFO -- : Started GET "/assets/application-b0426e496058d3d784915d30693e0d86e3f1908fa66e11169e89ec2d37658ebc.js" for 192.168.0.13 at 2016-05-17 01:53:13 +0000
+I, [2016-05-17T01:53:26.435316 #5753]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:53:26 +0000
+I, [2016-05-17T01:53:26.450982 #5753]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T01:53:26.471775 #5753]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.3ms)
+I, [2016-05-17T01:53:26.504947 #5753]  INFO -- : Completed 200 OK in 52ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T01:53:26.620861 #5753]  INFO -- : Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 192.168.0.13 at 2016-05-17 01:53:26 +0000
+I, [2016-05-17T01:53:26.661548 #5802]  INFO -- : Started GET "/assets/application-b0426e496058d3d784915d30693e0d86e3f1908fa66e11169e89ec2d37658ebc.js" for 192.168.0.13 at 2016-05-17 01:53:26 +0000
+I, [2016-05-17T01:56:21.685307 #5753]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:56:21 +0000
+I, [2016-05-17T01:56:21.698762 #5753]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T01:56:21.719821 #5753]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.1ms)
+I, [2016-05-17T01:56:21.753228 #5753]  INFO -- : Completed 200 OK in 52ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T01:56:21.848333 #5802]  INFO -- : Started GET "/assets/application-b0426e496058d3d784915d30693e0d86e3f1908fa66e11169e89ec2d37658ebc.js" for 192.168.0.13 at 2016-05-17 01:56:21 +0000
+I, [2016-05-17T01:56:21.850848 #5753]  INFO -- : Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 192.168.0.13 at 2016-05-17 01:56:21 +0000
+I, [2016-05-17T01:56:23.772602 #5753]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:56:23 +0000
+I, [2016-05-17T01:56:23.780643 #5753]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T01:56:23.790980 #5753]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.6ms)
+I, [2016-05-17T01:56:23.811332 #5753]  INFO -- : Completed 200 OK in 29ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T01:56:23.892100 #5802]  INFO -- : Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 192.168.0.13 at 2016-05-17 01:56:23 +0000
+I, [2016-05-17T01:56:23.901059 #5753]  INFO -- : Started GET "/assets/application-b0426e496058d3d784915d30693e0d86e3f1908fa66e11169e89ec2d37658ebc.js" for 192.168.0.13 at 2016-05-17 01:56:23 +0000
+I, [2016-05-17T01:57:27.782830 #6252]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:57:27 +0000
+I, [2016-05-17T01:57:27.855850 #6252]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T01:57:28.024652 #6252]  INFO -- :   Rendered pages/home.html.erb within layouts/application (6.7ms)
+I, [2016-05-17T01:58:31.266688 #6252]  INFO -- : Completed 200 OK in 63409ms (Views: 63286.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T01:58:31.372618 #6252]  INFO -- : Started GET "/assets/application-2530f910876141237d82138c17d94af3c8248c1073c47d11cef536c635970235.css" for 192.168.0.13 at 2016-05-17 01:58:31 +0000
+I, [2016-05-17T01:58:31.426736 #6252]  INFO -- : Started GET "/assets/application-b0426e496058d3d784915d30693e0d86e3f1908fa66e11169e89ec2d37658ebc.js" for 192.168.0.13 at 2016-05-17 01:58:31 +0000
+I, [2016-05-17T01:58:31.571039 #6252]  INFO -- : Started GET "/pages/style.css" for 192.168.0.13 at 2016-05-17 01:58:31 +0000
+F, [2016-05-17T01:58:31.598228 #6252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/style.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:58:31.805041 #6252]  INFO -- : Started GET "/pages/style.css" for 192.168.0.13 at 2016-05-17 01:58:31 +0000
+F, [2016-05-17T01:58:31.828270 #6252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/style.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:59:11.692597 #6252]  INFO -- : Started GET "/pages/files/lastpass.kdbx" for 192.168.0.13 at 2016-05-17 01:59:11 +0000
+F, [2016-05-17T01:59:11.706230 #6252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/files/lastpass.kdbx"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:59:21.103385 #6252]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 01:59:21 +0000
+I, [2016-05-17T01:59:21.112658 #6252]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T01:59:21.125083 #6252]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.8ms)
+I, [2016-05-17T01:59:21.146146 #6252]  INFO -- : Completed 200 OK in 32ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T01:59:21.263389 #6252]  INFO -- : Started GET "/assets/application-2530f910876141237d82138c17d94af3c8248c1073c47d11cef536c635970235.css" for 192.168.0.13 at 2016-05-17 01:59:21 +0000
+I, [2016-05-17T01:59:21.326511 #6252]  INFO -- : Started GET "/assets/application-b0426e496058d3d784915d30693e0d86e3f1908fa66e11169e89ec2d37658ebc.js" for 192.168.0.13 at 2016-05-17 01:59:21 +0000
+I, [2016-05-17T01:59:21.336580 #6292]  INFO -- : Started GET "/pages/style.css" for 192.168.0.13 at 2016-05-17 01:59:21 +0000
+F, [2016-05-17T01:59:21.623909 #6292] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/style.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T01:59:21.741676 #6252]  INFO -- : Started GET "/pages/style.css" for 192.168.0.13 at 2016-05-17 01:59:21 +0000
+F, [2016-05-17T01:59:21.764824 #6252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/style.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T02:06:34.598487 #1985]  INFO -- : Started GET "/pages/home" for 192.168.0.13 at 2016-05-17 02:06:34 +0000
+F, [2016-05-17T02:06:34.675069 #1985] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T02:06:38.515352 #1985]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 02:06:38 +0000
+I, [2016-05-17T02:06:38.540420 #1985]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T02:06:38.724147 #1985]  INFO -- :   Rendered pages/home.html.erb within layouts/application (6.8ms)
+I, [2016-05-17T02:06:38.734357 #1985]  INFO -- : Completed 200 OK in 192ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T02:06:38.823496 #1985]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 02:06:38 +0000
+I, [2016-05-17T02:07:01.785513 #1985]  INFO -- : Started GET "/assets/lastpass.kdbx" for 192.168.0.13 at 2016-05-17 02:07:01 +0000
+F, [2016-05-17T02:07:01.822431 #1985] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/lastpass.kdbx"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T02:07:14.112114 #1985]  INFO -- : Started GET "/assets/lastpass.kdbx" for 192.168.0.13 at 2016-05-17 02:07:14 +0000
+F, [2016-05-17T02:07:14.157959 #1985] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/lastpass.kdbx"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T02:07:19.749082 #1985]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 02:07:19 +0000
+I, [2016-05-17T02:07:19.768659 #1985]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T02:07:19.788755 #1985]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.1ms)
+I, [2016-05-17T02:07:19.794472 #1985]  INFO -- : Completed 200 OK in 23ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T02:07:19.890499 #1985]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 02:07:19 +0000
+I, [2016-05-17T02:19:10.681298 #1985]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 02:19:10 +0000
+I, [2016-05-17T02:19:10.689137 #1985]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T02:19:10.699635 #1985]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.5ms)
+I, [2016-05-17T02:19:10.702607 #1985]  INFO -- : Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T02:19:10.827759 #1985]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 02:19:10 +0000
+I, [2016-05-17T09:03:46.802343 #1844]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 09:03:46 +0000
+I, [2016-05-17T09:03:46.887727 #1844]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T09:03:47.070677 #1844]  INFO -- :   Rendered pages/home.html.erb within layouts/application (9.1ms)
+I, [2016-05-17T09:03:47.080754 #1844]  INFO -- : Completed 200 OK in 191ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T09:03:47.200524 #1844]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 09:03:47 +0000
+I, [2016-05-17T09:06:18.482935 #1844]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 09:06:18 +0000
+I, [2016-05-17T09:06:18.498630 #1844]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T09:06:18.514580 #1844]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.4ms)
+I, [2016-05-17T09:06:18.520732 #1844]  INFO -- : Completed 200 OK in 19ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T09:06:18.599286 #1844]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 09:06:18 +0000
+I, [2016-05-17T12:23:44.251137 #1844]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:23:44 +0000
+I, [2016-05-17T12:23:44.258775 #1844]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:23:44.266941 #1844]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-17T12:23:44.270136 #1844]  INFO -- : Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:23:44.358555 #1844]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:23:44 +0000
+I, [2016-05-17T12:24:39.151094 #19311]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:24:39 +0000
+I, [2016-05-17T12:24:39.219925 #19311]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:24:39.344306 #19311]  INFO -- : Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:24:39.362366 #19311] FATAL -- : 
+Errno::ENOENT (No such file or directory @ dir_initialize - /home/pi/files):
+  app/controllers/pages_controller.rb:3:in `open'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:27:23.026558 #20282]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:27:23 +0000
+I, [2016-05-17T12:27:23.092031 #20282]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:27:23.210242 #20282]  INFO -- : Completed 500 Internal Server Error in 116ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:27:23.228706 #20282] FATAL -- : 
+Errno::ENOENT (No such file or directory @ dir_initialize - /home/pi/files):
+  app/controllers/pages_controller.rb:3:in `open'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:34:25.135240 #20282]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:34:25 +0000
+I, [2016-05-17T12:34:25.143625 #20282]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:34:25.150360 #20282]  INFO -- : Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:34:25.166770 #20282] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:4:in `block in home'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:34:27.054718 #20282]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:34:27 +0000
+I, [2016-05-17T12:34:27.062461 #20282]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:34:27.068867 #20282]  INFO -- : Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:34:27.085302 #20282] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:4:in `block in home'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:35:34.817349 #22300]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:35:34 +0000
+I, [2016-05-17T12:35:34.884995 #22300]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:35:35.031144 #22300]  INFO -- : Completed 500 Internal Server Error in 144ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:35:35.062280 #22300] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:4:in `block in home'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:39:58.844965 #22300]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:39:58 +0000
+I, [2016-05-17T12:39:58.853602 #22300]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:39:58.860260 #22300]  INFO -- : Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:39:58.877429 #22300] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:4:in `block in home'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:40:01.429414 #22300]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:40:01 +0000
+I, [2016-05-17T12:40:01.443111 #22300]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:40:01.453189 #22300]  INFO -- : Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T12:40:01.480906 #22300] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:4:in `block in home'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T12:42:44.823678 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:42:44 +0000
+I, [2016-05-17T12:42:44.891888 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:42:45.136431 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (14.4ms)
+I, [2016-05-17T12:42:45.145662 #24274]  INFO -- : Completed 200 OK in 252ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:42:45.245998 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:42:45 +0000
+I, [2016-05-17T12:43:33.818976 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:43:33 +0000
+I, [2016-05-17T12:43:33.828027 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:43:33.837648 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.8ms)
+I, [2016-05-17T12:43:33.841112 #24274]  INFO -- : Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:43:33.936816 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:43:33 +0000
+I, [2016-05-17T12:54:22.372851 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:54:22 +0000
+I, [2016-05-17T12:54:22.384985 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:54:22.393764 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-17T12:54:22.397082 #24274]  INFO -- : Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:54:22.540359 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:54:22 +0000
+I, [2016-05-17T12:54:23.378040 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:54:23 +0000
+I, [2016-05-17T12:54:23.385691 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:54:23.394155 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.8ms)
+I, [2016-05-17T12:54:23.397394 #24274]  INFO -- : Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:54:23.479280 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:54:23 +0000
+I, [2016-05-17T12:54:24.282708 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:54:24 +0000
+I, [2016-05-17T12:54:24.290601 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:54:24.299225 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-17T12:54:24.302400 #24274]  INFO -- : Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:54:24.402183 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:54:24 +0000
+I, [2016-05-17T12:54:25.231376 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:54:25 +0000
+I, [2016-05-17T12:54:25.243909 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:54:25.258180 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.4ms)
+I, [2016-05-17T12:54:25.263457 #24274]  INFO -- : Completed 200 OK in 17ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:54:25.348634 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:54:25 +0000
+I, [2016-05-17T12:54:26.066566 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:54:26 +0000
+I, [2016-05-17T12:54:26.079232 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:54:26.092517 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.0ms)
+I, [2016-05-17T12:54:26.098468 #24274]  INFO -- : Completed 200 OK in 17ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:54:26.184415 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:54:26 +0000
+I, [2016-05-17T12:54:26.858044 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:54:26 +0000
+I, [2016-05-17T12:54:26.870719 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:54:26.884126 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.0ms)
+I, [2016-05-17T12:54:26.889494 #24274]  INFO -- : Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:54:26.978589 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:54:26 +0000
+I, [2016-05-17T12:57:43.981814 #24274]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:57:43 +0000
+I, [2016-05-17T12:57:43.994709 #24274]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:57:44.008890 #24274]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.4ms)
+I, [2016-05-17T12:57:44.014021 #24274]  INFO -- : Completed 200 OK in 17ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:57:44.304665 #24274]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:57:44 +0000
+I, [2016-05-17T12:58:38.717327 #28031]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 12:58:38 +0000
+I, [2016-05-17T12:58:38.785975 #28031]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T12:58:38.955156 #28031]  INFO -- :   Rendered pages/home.html.erb within layouts/application (8.6ms)
+I, [2016-05-17T12:58:38.964257 #28031]  INFO -- : Completed 200 OK in 176ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T12:58:39.070246 #28031]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 12:58:39 +0000
+I, [2016-05-17T13:00:52.953605 #28619]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:00:52 +0000
+I, [2016-05-17T13:00:53.022029 #28619]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:00:53.147469 #28619]  INFO -- : Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:00:53.166814 #28619] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:6:in `block in home'
+  app/controllers/pages_controller.rb:4:in `foreach'
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+I, [2016-05-17T13:04:19.932931 #29696]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:04:19 +0000
+I, [2016-05-17T13:04:20.003222 #29696]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:04:20.263489 #29696]  INFO -- :   Rendered pages/home.html.erb within layouts/application (8.7ms)
+I, [2016-05-17T13:04:20.272861 #29696]  INFO -- : Completed 200 OK in 268ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:04:20.377794 #29696]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:04:20 +0000
+I, [2016-05-17T13:09:12.068896 #29696]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:09:12 +0000
+I, [2016-05-17T13:09:12.090083 #29696]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:09:12.105554 #29696]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.6ms)
+I, [2016-05-17T13:09:12.111356 #29696]  INFO -- : Completed 200 OK in 19ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:09:12.244971 #29696]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:09:12 +0000
+I, [2016-05-17T13:09:56.880551 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:09:56 +0000
+I, [2016-05-17T13:09:56.948487 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:09:57.120980 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (9.4ms)
+I, [2016-05-17T13:09:57.130309 #30893]  INFO -- : Completed 200 OK in 180ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:09:57.255817 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:09:57 +0000
+I, [2016-05-17T13:12:19.217259 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:12:19 +0000
+I, [2016-05-17T13:12:19.225355 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:12:19.234981 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.8ms)
+I, [2016-05-17T13:12:19.238382 #30893]  INFO -- : Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:12:19.315746 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:12:19 +0000
+I, [2016-05-17T13:12:20.337290 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:12:20 +0000
+I, [2016-05-17T13:12:20.348946 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:12:20.363036 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.3ms)
+I, [2016-05-17T13:12:20.368664 #30893]  INFO -- : Completed 200 OK in 17ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:12:20.480625 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:12:20 +0000
+I, [2016-05-17T13:12:21.007032 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:12:21 +0000
+I, [2016-05-17T13:12:21.019270 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:12:21.033233 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.2ms)
+I, [2016-05-17T13:12:21.038628 #30893]  INFO -- : Completed 200 OK in 17ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:12:21.127642 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:12:21 +0000
+I, [2016-05-17T13:12:21.558464 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:12:21 +0000
+I, [2016-05-17T13:12:21.570489 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:12:21.584607 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.2ms)
+I, [2016-05-17T13:12:21.589804 #30893]  INFO -- : Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:12:21.682317 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:12:21 +0000
+I, [2016-05-17T13:12:22.056840 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:12:22 +0000
+I, [2016-05-17T13:12:22.068536 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:12:22.082874 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.1ms)
+I, [2016-05-17T13:12:22.088226 #30893]  INFO -- : Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:12:22.174028 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:12:22 +0000
+I, [2016-05-17T13:12:48.214563 #30893]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:12:48 +0000
+I, [2016-05-17T13:12:48.222451 #30893]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:12:48.231068 #30893]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-17T13:12:48.234209 #30893]  INFO -- : Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:12:48.324805 #30893]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:12:48 +0000
+I, [2016-05-17T13:13:30.664032 #31791]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:13:30 +0000
+I, [2016-05-17T13:13:30.731747 #31791]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:13:30.852454 #31791]  INFO -- : Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:13:30.870400 #31791] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:6:in `block in home'
+  app/controllers/pages_controller.rb:4:in `foreach'
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+I, [2016-05-17T13:14:52.290261 #32229]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:14:52 +0000
+I, [2016-05-17T13:14:52.357423 #32229]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:14:52.511632 #32229]  INFO -- : Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:14:52.548794 #32229] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:7:in `block in home'
+  app/controllers/pages_controller.rb:5:in `foreach'
+  app/controllers/pages_controller.rb:5:in `home'
+
+
+I, [2016-05-17T13:16:40.151497 #473]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:16:40 +0000
+I, [2016-05-17T13:16:40.220473 #473]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:16:40.341629 #473]  INFO -- : Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:16:40.359991 #473] FATAL -- : 
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/pages_controller.rb:4:in `block in home'
+  app/controllers/pages_controller.rb:3:in `foreach'
+  app/controllers/pages_controller.rb:3:in `home'
+
+
+I, [2016-05-17T13:19:03.651594 #1266]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:19:03 +0000
+I, [2016-05-17T13:19:03.720083 #1266]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:19:03.891140 #1266]  INFO -- :   Rendered pages/home.html.erb within layouts/application (9.7ms)
+I, [2016-05-17T13:19:03.899817 #1266]  INFO -- : Completed 200 OK in 178ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:19:04.009660 #1266]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:19:04 +0000
+I, [2016-05-17T13:26:57.384669 #3082]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:26:57 +0000
+I, [2016-05-17T13:26:57.451704 #3082]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:26:57.619832 #3082]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.0ms)
+I, [2016-05-17T13:26:57.628971 #3082]  INFO -- : Completed 200 OK in 175ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:26:57.752203 #3082]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:26:57 +0000
+I, [2016-05-17T13:27:27.836089 #3082]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:27:27 +0000
+I, [2016-05-17T13:27:27.850502 #3082]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:27:27.865971 #3082]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.3ms)
+I, [2016-05-17T13:27:27.871254 #3082]  INFO -- : Completed 200 OK in 18ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:27:27.971069 #3082]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:27:27 +0000
+I, [2016-05-17T13:29:11.034344 #3608]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:29:11 +0000
+I, [2016-05-17T13:29:11.102443 #3608]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:29:11.271840 #3608]  INFO -- :   Rendered pages/home.html.erb within layouts/application (9.6ms)
+I, [2016-05-17T13:29:11.281133 #3608]  INFO -- : Completed 200 OK in 176ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:29:11.382751 #3608]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:29:11 +0000
+I, [2016-05-17T13:33:57.411640 #4755]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:33:57 +0000
+I, [2016-05-17T13:33:57.480845 #4755]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:33:57.648115 #4755]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.3ms)
+I, [2016-05-17T13:33:57.650965 #4755]  INFO -- : Completed 500 Internal Server Error in 168ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:33:57.678709 #4755] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/pi/cloud/app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+I, [2016-05-17T13:35:56.130970 #4755]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:35:56 +0000
+I, [2016-05-17T13:35:56.140187 #4755]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:35:56.154910 #4755]  INFO -- :   Rendered pages/home.html.erb within layouts/application (5.5ms)
+I, [2016-05-17T13:35:56.157009 #4755]  INFO -- : Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:35:56.183987 #4755] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/pi/cloud/app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+I, [2016-05-17T13:35:57.003236 #4755]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:35:57 +0000
+I, [2016-05-17T13:35:57.011247 #4755]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:35:57.025227 #4755]  INFO -- :   Rendered pages/home.html.erb within layouts/application (5.5ms)
+I, [2016-05-17T13:35:57.027484 #4755]  INFO -- : Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:35:57.055143 #4755] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/pi/cloud/app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+I, [2016-05-17T13:35:57.683036 #4755]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:35:57 +0000
+I, [2016-05-17T13:35:57.691396 #4755]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:35:57.705605 #4755]  INFO -- :   Rendered pages/home.html.erb within layouts/application (5.7ms)
+I, [2016-05-17T13:35:57.707740 #4755]  INFO -- : Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:35:57.733603 #4755] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/pi/cloud/app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+I, [2016-05-17T13:35:58.321620 #4755]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:35:58 +0000
+I, [2016-05-17T13:35:58.329225 #4755]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:35:58.342693 #4755]  INFO -- :   Rendered pages/home.html.erb within layouts/application (5.5ms)
+I, [2016-05-17T13:35:58.344615 #4755]  INFO -- : Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:35:58.371086 #4755] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/pi/cloud/app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+I, [2016-05-17T13:35:59.022992 #4755]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:35:59 +0000
+I, [2016-05-17T13:35:59.030717 #4755]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:35:59.044635 #4755]  INFO -- :   Rendered pages/home.html.erb within layouts/application (5.8ms)
+I, [2016-05-17T13:35:59.046649 #4755]  INFO -- : Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:35:59.073468 #4755] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/pi/cloud/app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/pages/home.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/pages/home.html.erb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+I, [2016-05-17T13:37:05.858325 #5699]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:37:05 +0000
+I, [2016-05-17T13:37:05.925118 #5699]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:37:06.103887 #5699]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.0ms)
+I, [2016-05-17T13:37:06.113221 #5699]  INFO -- : Completed 200 OK in 186ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:37:06.256568 #5699]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:37:06 +0000
+I, [2016-05-17T13:37:34.782457 #5699]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:37:34 +0000
+I, [2016-05-17T13:37:34.791162 #5699]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:37:34.801187 #5699]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.2ms)
+I, [2016-05-17T13:37:34.804765 #5699]  INFO -- : Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:37:34.910433 #5699]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:37:34 +0000
+I, [2016-05-17T13:38:50.356184 #6224]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:38:50 +0000
+I, [2016-05-17T13:38:50.423042 #6224]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:38:50.591326 #6224]  INFO -- :   Rendered pages/home.html.erb within layouts/application (12.6ms)
+I, [2016-05-17T13:38:50.594382 #6224]  INFO -- : Completed 500 Internal Server Error in 169ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T13:38:50.623460 #6224] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:13: syntax error, unexpected '<'
+...freeze;@output_buffer.append=(<p>file</p> );@output_buffer.s...
+...                               ^
+/home/pi/cloud/app/views/pages/home.html.erb:15: unknown regexp option - l
+unmatched close parenthesis: /p> );@output_buffer.safe_append='
+'.freeze;			 end 
+@output_buffer.safe_append='		</
+/home/pi/cloud/app/views/pages/home.html.erb:16: syntax error, unexpected '<'
+	</body>
+	 ^
+/home/pi/cloud/app/views/pages/home.html.erb:17: unknown regexp options - htl
+/home/pi/cloud/app/views/pages/home.html.erb:18: unterminated string meets end of file
+/home/pi/cloud/app/views/pages/home.html.erb:18: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/pages/home.html.erb:13: syntax error, unexpected '<'
+  app/views/pages/home.html.erb:15: unknown regexp option - l
+  app/views/pages/home.html.erb:16: syntax error, unexpected '<'
+  app/views/pages/home.html.erb:17: unknown regexp options - htl
+  app/views/pages/home.html.erb:18: unterminated string meets end of file
+  app/views/pages/home.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+
+
+I, [2016-05-17T13:40:00.284839 #6650]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:40:00 +0000
+I, [2016-05-17T13:40:00.353318 #6650]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:40:00.524765 #6650]  INFO -- :   Rendered pages/home.html.erb within layouts/application (9.7ms)
+I, [2016-05-17T13:40:00.533762 #6650]  INFO -- : Completed 200 OK in 178ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:40:00.784523 #6650]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:40:00 +0000
+I, [2016-05-17T13:42:31.633200 #7344]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:42:31 +0000
+I, [2016-05-17T13:42:31.700773 #7344]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:42:31.872487 #7344]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.9ms)
+I, [2016-05-17T13:42:31.881831 #7344]  INFO -- : Completed 200 OK in 179ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:42:31.993708 #7344]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:42:31 +0000
+I, [2016-05-17T13:43:51.418145 #7808]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:43:51 +0000
+I, [2016-05-17T13:43:51.485763 #7808]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:43:51.657537 #7808]  INFO -- :   Rendered pages/home.html.erb within layouts/application (11.3ms)
+I, [2016-05-17T13:43:51.666381 #7808]  INFO -- : Completed 200 OK in 178ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:43:51.785059 #7808]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:43:51 +0000
+I, [2016-05-17T13:44:02.411216 #7808]  INFO -- : Started GET "/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 13:44:02 +0000
+F, [2016-05-17T13:44:02.425165 #7808] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/home/pi/files/test2"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T13:45:07.052412 #8185]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:45:07 +0000
+I, [2016-05-17T13:45:07.121511 #8185]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:45:07.287697 #8185]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.4ms)
+I, [2016-05-17T13:45:07.296612 #8185]  INFO -- : Completed 200 OK in 173ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:45:07.422891 #8185]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:45:07 +0000
+I, [2016-05-17T13:59:44.686693 #11700]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 13:59:44 +0000
+I, [2016-05-17T13:59:44.755163 #11700]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T13:59:44.925596 #11700]  INFO -- :   Rendered pages/home.html.erb within layouts/application (11.1ms)
+I, [2016-05-17T13:59:44.935015 #11700]  INFO -- : Completed 200 OK in 178ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T13:59:45.064024 #11700]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 13:59:45 +0000
+I, [2016-05-17T14:00:14.029457 #11700]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:00:14 +0000
+F, [2016-05-17T14:00:14.052005 #11700] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/download"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.28) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-05-17T14:02:20.152800 #12462]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:02:20 +0000
+I, [2016-05-17T14:02:20.227003 #12462]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:02:20.390580 #12462]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.7ms)
+I, [2016-05-17T14:02:20.399488 #12462]  INFO -- : Completed 200 OK in 170ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:02:20.567190 #12462]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:02:20 +0000
+I, [2016-05-17T14:02:29.514252 #12462]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:02:29 +0000
+I, [2016-05-17T14:02:29.545830 #12462]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:02:29.546786 #12462]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:02:29.553680 #12462]  INFO -- : Sent file /home/pi/files/test2 (1.1ms)
+I, [2016-05-17T14:02:29.555696 #12462]  INFO -- : Completed 200 OK in 8ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:02:40.813002 #12462]  INFO -- : Started GET "/download?path=/home/pi/files/tstestt" for 192.168.0.13 at 2016-05-17 14:02:40 +0000
+I, [2016-05-17T14:02:40.821818 #12462]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:02:40.822699 #12462]  INFO -- :   Parameters: {"path"=>"/home/pi/files/tstestt"}
+I, [2016-05-17T14:02:40.827621 #12462]  INFO -- : Sent file /home/pi/files/tstestt (0.7ms)
+I, [2016-05-17T14:02:40.829657 #12462]  INFO -- : Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:07:34.101198 #13702]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:07:34 +0000
+I, [2016-05-17T14:07:34.175136 #13702]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:07:34.353706 #13702]  INFO -- :   Rendered pages/home.html.erb within layouts/application (11.3ms)
+I, [2016-05-17T14:07:34.356652 #13702]  INFO -- : Completed 500 Internal Server Error in 179ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T14:07:34.385502 #13702] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:13: unterminated string meets end of file
+/home/pi/cloud/app/views/pages/home.html.erb:13: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/pages/home.html.erb:13: unterminated string meets end of file
+  app/views/pages/home.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+
+
+I, [2016-05-17T14:07:36.348447 #13702]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:07:36 +0000
+I, [2016-05-17T14:07:36.358062 #13702]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:07:36.372625 #13702]  INFO -- :   Rendered pages/home.html.erb within layouts/application (6.3ms)
+I, [2016-05-17T14:07:36.374691 #13702]  INFO -- : Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T14:07:36.402166 #13702] FATAL -- : 
+SyntaxError (/home/pi/cloud/app/views/pages/home.html.erb:13: unterminated string meets end of file
+/home/pi/cloud/app/views/pages/home.html.erb:13: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/pages/home.html.erb:13: unterminated string meets end of file
+  app/views/pages/home.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+
+
+I, [2016-05-17T14:08:36.005434 #14113]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:08:36 +0000
+I, [2016-05-17T14:08:36.166230 #14113]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:08:36.519951 #14113]  INFO -- :   Rendered pages/home.html.erb within layouts/application (19.7ms)
+I, [2016-05-17T14:08:36.538663 #14113]  INFO -- : Completed 200 OK in 370ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:08:36.615725 #14164]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:08:36 +0000
+I, [2016-05-17T14:08:36.691108 #14164]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:08:36.869911 #14164]  INFO -- :   Rendered pages/home.html.erb within layouts/application (11.2ms)
+I, [2016-05-17T14:08:36.878782 #14164]  INFO -- : Completed 200 OK in 186ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:08:37.007540 #14113]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:08:37 +0000
+I, [2016-05-17T14:09:12.371726 #14113]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:09:12 +0000
+I, [2016-05-17T14:09:12.391079 #14113]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:09:12.392540 #14113]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:09:12.402538 #14113]  INFO -- : Sent file /home/pi/files/test2 (1.9ms)
+I, [2016-05-17T14:09:12.407171 #14113]  INFO -- : Completed 200 OK in 12ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:14:13.380257 #15089]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:14:13 +0000
+I, [2016-05-17T14:14:13.451630 #15089]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:14:13.626589 #15089]  INFO -- :   Rendered pages/home.html.erb within layouts/application (18.8ms)
+I, [2016-05-17T14:14:13.629274 #15089]  INFO -- : Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.0ms)
+F, [2016-05-17T14:14:13.655650 #15089] FATAL -- : 
+ActionView::Template::Error (undefined method `-' for "/home/pi/files/test2":String):
+    10: 
+    11: 		<ul>
+    12: 			<% Dir["/home/pi/files/*"].each do |file| %>
+    13: 				<li><a href="/download?path=<%=file %>"><%=file - "/home/pi/files/"%></a></li>
+    14: 			<% end %>
+    15: 		</ul>
+    16: 	</body>
+  app/views/pages/home.html.erb:13:in `block in _app_views_pages_home_html_erb___630721660_20469060'
+  app/views/pages/home.html.erb:12:in `each'
+  app/views/pages/home.html.erb:12:in `_app_views_pages_home_html_erb___630721660_20469060'
+
+
+I, [2016-05-17T14:23:22.320884 #17574]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:23:22 +0000
+I, [2016-05-17T14:23:22.394213 #17574]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:23:22.574652 #17574]  INFO -- :   Rendered pages/home.html.erb within layouts/application (10.9ms)
+I, [2016-05-17T14:23:22.583503 #17574]  INFO -- : Completed 200 OK in 187ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:23:22.743159 #17574]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:23:22 +0000
+I, [2016-05-17T14:24:27.525720 #17574]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:24:27 +0000
+I, [2016-05-17T14:24:27.535261 #17574]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:24:27.545802 #17574]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.8ms)
+I, [2016-05-17T14:24:27.549878 #17574]  INFO -- : Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:24:27.676978 #17574]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:24:27 +0000
+I, [2016-05-17T14:24:29.768205 #17574]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:24:29 +0000
+I, [2016-05-17T14:24:29.778702 #17574]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:24:29.779551 #17574]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:24:29.785082 #17574]  INFO -- : Sent file /home/pi/files/test2 (1.0ms)
+I, [2016-05-17T14:24:29.787179 #17574]  INFO -- : Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:24:33.662056 #17574]  INFO -- : Started GET "/download?path=/home/pi/files/tstestt" for 192.168.0.13 at 2016-05-17 14:24:33 +0000
+I, [2016-05-17T14:24:33.676865 #17574]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:24:33.678125 #17574]  INFO -- :   Parameters: {"path"=>"/home/pi/files/tstestt"}
+I, [2016-05-17T14:24:33.685785 #17574]  INFO -- : Sent file /home/pi/files/tstestt (1.2ms)
+I, [2016-05-17T14:24:33.689542 #17574]  INFO -- : Completed 200 OK in 9ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:32:20.435945 #17574]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:32:20 +0000
+I, [2016-05-17T14:32:20.449429 #17574]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:32:20.463843 #17574]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.9ms)
+I, [2016-05-17T14:32:20.469110 #17574]  INFO -- : Completed 200 OK in 17ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:32:20.621152 #17574]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:32:20 +0000
+I, [2016-05-17T14:32:22.954022 #17574]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:32:22 +0000
+I, [2016-05-17T14:32:22.968108 #17574]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:32:22.969550 #17574]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:32:22.977435 #17574]  INFO -- : Sent file /home/pi/files/test2 (1.7ms)
+I, [2016-05-17T14:32:22.980774 #17574]  INFO -- : Completed 200 OK in 9ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:33:44.708264 #17574]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:33:44 +0000
+I, [2016-05-17T14:33:44.720940 #17574]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:33:44.736011 #17574]  INFO -- :   Rendered pages/home.html.erb within layouts/application (2.5ms)
+I, [2016-05-17T14:33:44.741247 #17574]  INFO -- : Completed 200 OK in 18ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:33:44.870168 #17574]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:33:44 +0000
+I, [2016-05-17T14:33:47.944907 #17574]  INFO -- : Started GET "/download?path=/home/pi/files/It_Works!" for 192.168.0.13 at 2016-05-17 14:33:47 +0000
+I, [2016-05-17T14:33:47.953887 #17574]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:33:47.954677 #17574]  INFO -- :   Parameters: {"path"=>"/home/pi/files/It_Works!"}
+I, [2016-05-17T14:33:47.959375 #17574]  INFO -- : Sent file /home/pi/files/It_Works! (0.8ms)
+I, [2016-05-17T14:33:47.961520 #17574]  INFO -- : Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:37:54.652742 #17574]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:37:54 +0000
+I, [2016-05-17T14:37:54.661919 #17574]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:37:54.662709 #17574]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:37:54.667465 #17574]  INFO -- : Sent file /home/pi/files/test2 (0.8ms)
+I, [2016-05-17T14:37:54.669469 #17574]  INFO -- : Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:37:57.398576 #17574]  INFO -- : Started GET "/download?path=/home/pi/files/It_Works!" for 192.168.0.13 at 2016-05-17 14:37:57 +0000
+I, [2016-05-17T14:37:57.412741 #17574]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:37:57.414096 #17574]  INFO -- :   Parameters: {"path"=>"/home/pi/files/It_Works!"}
+I, [2016-05-17T14:37:57.421716 #17574]  INFO -- : Sent file /home/pi/files/It_Works! (1.1ms)
+I, [2016-05-17T14:37:57.424794 #17574]  INFO -- : Completed 200 OK in 9ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:50:52.085051 #1013]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:50:52 +0000
+I, [2016-05-17T14:50:52.232546 #1013]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:50:52.582714 #1013]  INFO -- :   Rendered pages/home.html.erb within layouts/application (23.0ms)
+I, [2016-05-17T14:50:52.600976 #1013]  INFO -- : Completed 200 OK in 367ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:50:52.632858 #1013]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:50:52 +0000
+I, [2016-05-17T14:50:52.649225 #1013]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:50:52.658524 #1013]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.4ms)
+I, [2016-05-17T14:50:52.672332 #1013]  INFO -- : Completed 200 OK in 22ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:50:52.827948 #1013]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:50:52 +0000
+I, [2016-05-17T14:51:04.141502 #1013]  INFO -- : Started GET "/" for 192.168.0.13 at 2016-05-17 14:51:04 +0000
+I, [2016-05-17T14:51:04.149905 #1013]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-17T14:51:04.170323 #1013]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.6ms)
+I, [2016-05-17T14:51:04.183845 #1013]  INFO -- : Completed 200 OK in 32ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+I, [2016-05-17T14:51:04.307702 #1013]  INFO -- : Started GET "/assets/style.css" for 192.168.0.13 at 2016-05-17 14:51:04 +0000
+I, [2016-05-17T14:51:06.529352 #1013]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:51:06 +0000
+I, [2016-05-17T14:51:06.549060 #1013]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:51:06.549868 #1013]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:51:06.565514 #1013]  INFO -- : Sent file /home/pi/files/test2 (1.1ms)
+I, [2016-05-17T14:51:06.567643 #1013]  INFO -- : Completed 200 OK in 16ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:51:09.710525 #1013]  INFO -- : Started GET "/download?path=/home/pi/files/tstestt" for 192.168.0.13 at 2016-05-17 14:51:09 +0000
+I, [2016-05-17T14:51:09.728731 #1013]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:51:09.729542 #1013]  INFO -- :   Parameters: {"path"=>"/home/pi/files/tstestt"}
+I, [2016-05-17T14:51:09.744394 #1013]  INFO -- : Sent file /home/pi/files/tstestt (0.8ms)
+I, [2016-05-17T14:51:09.746307 #1013]  INFO -- : Completed 200 OK in 15ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:51:13.281764 #1013]  INFO -- : Started GET "/download?path=/home/pi/files/It_Works!" for 192.168.0.13 at 2016-05-17 14:51:13 +0000
+I, [2016-05-17T14:51:13.290165 #1013]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:51:13.290952 #1013]  INFO -- :   Parameters: {"path"=>"/home/pi/files/It_Works!"}
+I, [2016-05-17T14:51:13.295706 #1013]  INFO -- : Sent file /home/pi/files/It_Works! (0.9ms)
+I, [2016-05-17T14:51:13.297648 #1013]  INFO -- : Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+I, [2016-05-17T14:51:16.159048 #1013]  INFO -- : Started GET "/download?path=/home/pi/files/test2" for 192.168.0.13 at 2016-05-17 14:51:16 +0000
+I, [2016-05-17T14:51:16.177246 #1013]  INFO -- : Processing by PagesController#download as HTML
+I, [2016-05-17T14:51:16.178069 #1013]  INFO -- :   Parameters: {"path"=>"/home/pi/files/test2"}
+I, [2016-05-17T14:51:16.192709 #1013]  INFO -- : Sent file /home/pi/files/test2 (0.7ms)
+I, [2016-05-17T14:51:16.194609 #1013]  INFO -- : Completed 200 OK in 15ms (ActiveRecord: 0.0ms)

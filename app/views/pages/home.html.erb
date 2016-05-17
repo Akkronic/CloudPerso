@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Téléchargements</title>
+		<meta charset=UTF-8 />
+		<link rel="stylesheet" type="text/css" href="/assets/style.css"/>
+	</head>
+	<body>
+		<h1>La Soute à Bagages du Tardis</h1>
+
+		<ul>
+			<% Dir["/home/pi/files/*"].each do |file| %>
+				<li><a href="/download?path=<%=file %>"><%=file[15..-1]%></a></li>
+			<% end %>
+		</ul>
+	</body>
+</html>
