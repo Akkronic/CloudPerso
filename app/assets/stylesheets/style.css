@@ -1,12 +1,27 @@
 h1
 {
+	padding-top: 10px;
+	padding-bottom: 20px;
 	color: #1f1790;
+	width: 110%;
 	text-align: center;
+	position: fixed;
+	margin: auto;
+	background: black;
+}
+
+h2
+{
+	color: white;
+
 }
 
 body
 {
-	background: #e9c99f;
+	background: url("/assets/11TARDIS.jpg");
+	background-attachment:fixed;
+	margin: 0;
+	padding: 0;
 }
 
 ul li a
@@ -22,4 +37,20 @@ ul li a:hover
 ul li a:focus
 {
 	outline: 0;
+}
+
+#p_storage_state
+{
+	color: white;
+}
+
+#files_section
+{
+	padding-top: 50px;
+}
+
+#sd_card_img
+{
+	width: 30px;
+	padding: 90px;
 }
