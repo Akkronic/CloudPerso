@@ -1,0 +1,74 @@
+html
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #1f1790;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	background: black;
+	margin: 0;
+}
+
+h2
+{
+	color: #1f1790;
+}
+
+body
+{
+	background: url("/imgs/11TARDIS.jpg");
+	background-attachment:fixed;
+	margin: 0;
+	padding: 0;
+}
+
+ul li a
+{
+	color: #009875;
+}
+
+ul li a:hover
+{
+	color: #059443;
+}
+
+ul li a:focus
+{
+	outline: 0;
+}
+
+section
+{
+	padding-bottom: 50px;
+}
+
+#p_storage_state
+{
+	color: #009875;
+}
+
+#files_section
+{
+	padding-top: 50px;
+}
+
+#sd_card_img
+{
+	width: 30px;
+	padding: 0 90px 0 90px;
+}
+
+@media (max-width:850px)
+{
+	body
+	{
+		background: black;
+	}
+}
