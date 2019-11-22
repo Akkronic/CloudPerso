@@ -9,7 +9,7 @@ body
 h1
 {
 	text-align: center;
-	color: #1f1790;
+	color: #b5bcd7;
 }
 
 form p
@@ -18,7 +18,12 @@ form p
 	margin-top: 200px;
 }
 
+form p input
+{
+	height: 27px
+}
+
 form p label
 {
-	color: #1f1790;
+	color: #b5bcd7;
 }

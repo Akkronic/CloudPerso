@@ -13,23 +13,19 @@
 			<p>
 				<input name="utf8" type="hidden" value="&#x2713;" />
 				<label>Mot de passe :</label>
-				<input type="password" name="password" id="password"/>
+				<input required type="password" name="password" id="password"/>
 				<input type="submit" value="Ok" />
 			</p>
 		</form>
-
+		<script src="js/focusTextInput.js"></script>
 		<?php
-			if ($_GET["error"] === "badPasswd")
+			if (isset($_GET["notif"]))
 			{
-				echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>';
-
-				echo '<script src="js/notificationBadPasswd.js"></script>';
-			}
-			elseif ($_GET["error"] === "noPasswd")
-			{
-				echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>';
-
-                                echo '<script src="js/notificationNoPasswd.js"></script>';
+				echo '<script src="js/jquery-3.3.1.min.js"></script>';
+				if ($_GET["notif"] === "badPasswd")
+					echo '<script src="js/notificationBadPasswd.js"></script>';
+				else if ($_GET["notif"] === "passwdChanged")
+					echo '<script src="js/notificationPasswdChanged.js"></script>';
 			}
 		?>
 	</body>
